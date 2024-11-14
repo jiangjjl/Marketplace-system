@@ -1,0 +1,18 @@
+16:21:08:669  INFO 34888 --- [main] com.hmall.HMallApplication               : Starting HMallApplication using Java 17.0.10 on LAPTOP-P77AQPFK with PID 34888 (D:\JavaProjects\hmall\hm-service\target\classes started by jiangjulai in D:\JavaProjects\hmall)
+16:21:08:672 DEBUG 34888 --- [main] com.hmall.HMallApplication               : Running with Spring Boot v2.7.12, Spring v5.3.27
+16:21:08:673  INFO 34888 --- [main] com.hmall.HMallApplication               : The following 1 profile is active: "dev"
+16:21:09:961  INFO 34888 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+16:21:09:963  INFO 34888 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+16:21:09:980  INFO 34888 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 8 ms. Found 0 Redis repository interfaces.
+16:21:10:127  INFO 34888 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=87c10d5b-777a-392c-9e0c-ee97b38dff1e
+16:21:10:458  INFO 34888 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+16:21:10:465  INFO 34888 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+16:21:10:465  INFO 34888 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.75]
+16:21:10:548  INFO 34888 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+16:21:10:548  INFO 34888 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1840 ms
+16:21:12:023  INFO 34888 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
+16:21:12:727  INFO 34888 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+16:21:12:923  INFO 34888 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Documentation plugins bootstrapped
+16:21:12:925  INFO 34888 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+16:21:12:954  INFO 34888 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+16:21:13:114  INFO 34888 --- [main] com.hmall.HMallApplication               : Started HMallApplication in 4.948 seconds (JVM running for 5.347)

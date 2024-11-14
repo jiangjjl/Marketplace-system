@@ -1,0 +1,13 @@
+server:
+  port: 8081
+feign:
+  httpclient:
+    enabled: true
+  sentinel:
+    enabled: true # 开启Feign对Sentinel的整合
+hm:
+  swagger:
+    title: 商品服务接口文档
+    package: com.hmall.item.controller
+  db:
+    database: hm-item

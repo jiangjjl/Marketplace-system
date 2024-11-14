@@ -1,0 +1,98 @@
+16:21:22:207  INFO 41428 --- [main] com.hmall.pay.payApplication             : Starting payApplication using Java 17.0.10 on LAPTOP-P77AQPFK with PID 41428 (D:\JavaProjects\hmall\pay-service\target\classes started by jiangjulai in D:\JavaProjects\hmall)
+16:21:22:209 DEBUG 41428 --- [main] com.hmall.pay.payApplication             : Running with Spring Boot v2.7.12, Spring v5.3.27
+16:21:22:210  INFO 41428 --- [main] com.hmall.pay.payApplication             : The following 1 profile is active: "local"
+16:21:22:986  INFO 41428 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+16:21:22:988  INFO 41428 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+16:21:23:003  INFO 41428 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 5 ms. Found 0 Redis repository interfaces.
+16:21:23:162  INFO 41428 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=ae2d76b0-efb5-3f1b-a63e-639f87375eae
+16:21:23:515  INFO 41428 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8085 (http)
+16:21:23:522  INFO 41428 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+16:21:23:522  INFO 41428 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.75]
+16:21:23:616  INFO 41428 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+16:21:23:616  INFO 41428 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1363 ms
+16:21:23:770  INFO 41428 --- [main] o.s.c.openfeign.FeignClientFactoryBean   : For 'user-service' URL not provided. Will try picking an instance via load-balancing.
+16:21:23:939  INFO 41428 --- [main] o.s.c.openfeign.FeignClientFactoryBean   : For 'trade-service' URL not provided. Will try picking an instance via load-balancing.
+16:21:24:842  INFO 41428 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
+16:21:25:608  INFO 41428 --- [main] com.alibaba.nacos.common.remote.client   : [RpcClientFactory] create a new rpc client of a062f4b1-7c9d-44b0-b9cc-64b02da7c30a
+16:21:25:657  INFO 41428 --- [main] org.reflections.Reflections              : Reflections took 19 ms to scan 1 urls, producing 3 keys and 6 values 
+16:21:25:674  INFO 41428 --- [main] org.reflections.Reflections              : Reflections took 9 ms to scan 1 urls, producing 4 keys and 9 values 
+16:21:25:682  INFO 41428 --- [main] org.reflections.Reflections              : Reflections took 5 ms to scan 1 urls, producing 3 keys and 10 values 
+16:21:25:683  WARN 41428 --- [main] org.reflections.Reflections              : given scan urls are empty. set urls in the configuration
+16:21:25:688  INFO 41428 --- [main] org.reflections.Reflections              : Reflections took 4 ms to scan 1 urls, producing 1 keys and 5 values 
+16:21:25:694  INFO 41428 --- [main] org.reflections.Reflections              : Reflections took 5 ms to scan 1 urls, producing 1 keys and 7 values 
+16:21:25:703  INFO 41428 --- [main] org.reflections.Reflections              : Reflections took 7 ms to scan 1 urls, producing 2 keys and 8 values 
+16:21:25:704  WARN 41428 --- [main] org.reflections.Reflections              : given scan urls are empty. set urls in the configuration
+16:21:25:705  INFO 41428 --- [main] com.alibaba.nacos.common.remote.client   : [a062f4b1-7c9d-44b0-b9cc-64b02da7c30a] RpcClient init label, labels = {module=naming, source=sdk}
+16:21:25:706  INFO 41428 --- [main] com.alibaba.nacos.common.remote.client   : [a062f4b1-7c9d-44b0-b9cc-64b02da7c30a] RpcClient init, ServerListFactory = com.alibaba.nacos.client.naming.core.ServerListManager
+16:21:25:706  INFO 41428 --- [main] com.alibaba.nacos.common.remote.client   : [a062f4b1-7c9d-44b0-b9cc-64b02da7c30a] Registry connection listener to current client:com.alibaba.nacos.client.naming.remote.gprc.redo.NamingGrpcRedoService
+16:21:25:707  INFO 41428 --- [main] com.alibaba.nacos.common.remote.client   : [a062f4b1-7c9d-44b0-b9cc-64b02da7c30a] Register server push request handler:com.alibaba.nacos.client.naming.remote.gprc.NamingPushRequestHandler
+16:21:25:708  INFO 41428 --- [main] com.alibaba.nacos.common.remote.client   : [a062f4b1-7c9d-44b0-b9cc-64b02da7c30a] Try to connect to server on start up, server: {serverIp = '192.168.112.134', server main port = 8848}
+16:21:26:507  INFO 41428 --- [main] com.alibaba.nacos.common.remote.client   : [a062f4b1-7c9d-44b0-b9cc-64b02da7c30a] Success to connect to server [192.168.112.134:8848] on start up, connectionId = 1731399686128_192.168.112.1_63259
+16:21:26:507  INFO 41428 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : [a062f4b1-7c9d-44b0-b9cc-64b02da7c30a] Notify connected event to listeners.
+16:21:26:508  INFO 41428 --- [main] com.alibaba.nacos.common.remote.client   : [a062f4b1-7c9d-44b0-b9cc-64b02da7c30a] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+16:21:26:508  INFO 41428 --- [main] com.alibaba.nacos.common.remote.client   : [a062f4b1-7c9d-44b0-b9cc-64b02da7c30a] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda$1215/0x0000020081924bb0
+16:21:26:560  INFO 41428 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8085 (http) with context path ''
+16:21:26:571  INFO 41428 --- [main] c.a.c.n.registry.NacosServiceRegistry    : nacos registry, DEFAULT_GROUP pay-service 10.20.171.63:8085 register finished
+16:21:26:760  INFO 41428 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Documentation plugins bootstrapped
+16:21:26:763  INFO 41428 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+16:21:26:784  INFO 41428 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+16:21:26:882  INFO 41428 --- [main] com.hmall.pay.payApplication             : Started payApplication in 5.239 seconds (JVM running for 5.682)
+16:21:27:098  INFO 41428 --- [nacos-grpc-client-executor-10] com.alibaba.nacos.common.remote.client   : [a062f4b1-7c9d-44b0-b9cc-64b02da7c30a] Receive server push request, request = NotifySubscriberRequest, requestId = 124
+16:21:27:109  INFO 41428 --- [nacos-grpc-client-executor-10] com.alibaba.nacos.common.remote.client   : [a062f4b1-7c9d-44b0-b9cc-64b02da7c30a] Ack server push request, request = NotifySubscriberRequest, requestId = 124
+16:34:19:096  INFO 41428 --- [http-nio-8085-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+16:34:19:099  INFO 41428 --- [http-nio-8085-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+16:34:19:123  INFO 41428 --- [http-nio-8085-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 24 ms
+16:34:19:247  INFO 41428 --- [http-nio-8085-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+16:34:44:530  INFO 41428 --- [http-nio-8085-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+16:34:44:538 DEBUG 41428 --- [http-nio-8085-exec-1] c.h.pay.mapper.PayOrderMapper.selectOne  : ==>  Preparing: SELECT id,biz_order_no,pay_order_no,biz_user_id,pay_channel_code,amount,pay_type,status,expand_json,result_code,result_msg,pay_success_time,pay_over_time,qr_code_url,create_time,update_time,creater,updater,is_delete FROM pay_order WHERE (biz_order_no = ?)
+16:34:44:577 DEBUG 41428 --- [http-nio-8085-exec-1] c.h.pay.mapper.PayOrderMapper.selectOne  : ==> Parameters: 1856254129771442177(Long)
+16:34:44:655 DEBUG 41428 --- [http-nio-8085-exec-1] c.h.pay.mapper.PayOrderMapper.selectOne  : <==      Total: 0
+16:36:20:849 DEBUG 41428 --- [http-nio-8085-exec-3] c.h.pay.mapper.PayOrderMapper.selectOne  : ==>  Preparing: SELECT id,biz_order_no,pay_order_no,biz_user_id,pay_channel_code,amount,pay_type,status,expand_json,result_code,result_msg,pay_success_time,pay_over_time,qr_code_url,create_time,update_time,creater,updater,is_delete FROM pay_order WHERE (biz_order_no = ?)
+16:36:20:850 DEBUG 41428 --- [http-nio-8085-exec-3] c.h.pay.mapper.PayOrderMapper.selectOne  : ==> Parameters: 1856254689903964162(Long)
+16:36:20:852 DEBUG 41428 --- [http-nio-8085-exec-3] c.h.pay.mapper.PayOrderMapper.selectOne  : <==      Total: 0
+16:36:20:921 DEBUG 41428 --- [http-nio-8085-exec-3] c.h.pay.mapper.PayOrderMapper.insert     : ==>  Preparing: INSERT INTO pay_order ( id, biz_order_no, pay_order_no, biz_user_id, pay_channel_code, amount, pay_type, status, pay_over_time ) VALUES ( ?, ?, ?, ?, ?, ?, ?, ?, ? )
+16:36:20:925 DEBUG 41428 --- [http-nio-8085-exec-3] c.h.pay.mapper.PayOrderMapper.insert     : ==> Parameters: 1856254692588355587(Long), 1856254689903964162(Long), 1856254692588355586(Long), 1(Long), balance(String), 36600(Integer), 5(Integer), 1(Integer), 2024-11-12T18:36:20.911928400(LocalDateTime)
+16:36:20:939 DEBUG 41428 --- [http-nio-8085-exec-3] c.h.pay.mapper.PayOrderMapper.insert     : <==    Updates: 1
+16:36:30:426 DEBUG 41428 --- [http-nio-8085-exec-4] c.h.pay.mapper.PayOrderMapper.selectOne  : ==>  Preparing: SELECT id,biz_order_no,pay_order_no,biz_user_id,pay_channel_code,amount,pay_type,status,expand_json,result_code,result_msg,pay_success_time,pay_over_time,qr_code_url,create_time,update_time,creater,updater,is_delete FROM pay_order WHERE (biz_order_no = ?)
+16:36:30:426 DEBUG 41428 --- [http-nio-8085-exec-4] c.h.pay.mapper.PayOrderMapper.selectOne  : ==> Parameters: 1856254689903964162(Long)
+16:36:30:435 DEBUG 41428 --- [http-nio-8085-exec-4] c.h.pay.mapper.PayOrderMapper.selectOne  : <==      Total: 1
+16:42:43:223 DEBUG 41428 --- [http-nio-8085-exec-7] c.h.pay.mapper.PayOrderMapper.selectOne  : ==>  Preparing: SELECT id,biz_order_no,pay_order_no,biz_user_id,pay_channel_code,amount,pay_type,status,expand_json,result_code,result_msg,pay_success_time,pay_over_time,qr_code_url,create_time,update_time,creater,updater,is_delete FROM pay_order WHERE (biz_order_no = ?)
+16:42:43:224 DEBUG 41428 --- [http-nio-8085-exec-7] c.h.pay.mapper.PayOrderMapper.selectOne  : ==> Parameters: 1856254689903964162(Long)
+16:42:43:226 DEBUG 41428 --- [http-nio-8085-exec-7] c.h.pay.mapper.PayOrderMapper.selectOne  : <==      Total: 1
+16:42:45:013 DEBUG 41428 --- [http-nio-8085-exec-8] c.h.pay.mapper.PayOrderMapper.selectOne  : ==>  Preparing: SELECT id,biz_order_no,pay_order_no,biz_user_id,pay_channel_code,amount,pay_type,status,expand_json,result_code,result_msg,pay_success_time,pay_over_time,qr_code_url,create_time,update_time,creater,updater,is_delete FROM pay_order WHERE (biz_order_no = ?)
+16:42:45:013 DEBUG 41428 --- [http-nio-8085-exec-8] c.h.pay.mapper.PayOrderMapper.selectOne  : ==> Parameters: 1856254689903964162(Long)
+16:42:45:015 DEBUG 41428 --- [http-nio-8085-exec-8] c.h.pay.mapper.PayOrderMapper.selectOne  : <==      Total: 1
+16:42:45:450 DEBUG 41428 --- [http-nio-8085-exec-9] c.h.pay.mapper.PayOrderMapper.selectOne  : ==>  Preparing: SELECT id,biz_order_no,pay_order_no,biz_user_id,pay_channel_code,amount,pay_type,status,expand_json,result_code,result_msg,pay_success_time,pay_over_time,qr_code_url,create_time,update_time,creater,updater,is_delete FROM pay_order WHERE (biz_order_no = ?)
+16:42:45:450 DEBUG 41428 --- [http-nio-8085-exec-9] c.h.pay.mapper.PayOrderMapper.selectOne  : ==> Parameters: 1856254689903964162(Long)
+16:42:45:453 DEBUG 41428 --- [http-nio-8085-exec-9] c.h.pay.mapper.PayOrderMapper.selectOne  : <==      Total: 1
+16:44:56:804 DEBUG 41428 --- [http-nio-8085-exec-1] c.h.pay.mapper.PayOrderMapper.selectOne  : ==>  Preparing: SELECT id,biz_order_no,pay_order_no,biz_user_id,pay_channel_code,amount,pay_type,status,expand_json,result_code,result_msg,pay_success_time,pay_over_time,qr_code_url,create_time,update_time,creater,updater,is_delete FROM pay_order WHERE (biz_order_no = ?)
+16:44:56:804 DEBUG 41428 --- [http-nio-8085-exec-1] c.h.pay.mapper.PayOrderMapper.selectOne  : ==> Parameters: 1856256854886248449(Long)
+16:44:56:806 DEBUG 41428 --- [http-nio-8085-exec-1] c.h.pay.mapper.PayOrderMapper.selectOne  : <==      Total: 0
+16:44:56:807 DEBUG 41428 --- [http-nio-8085-exec-1] c.h.pay.mapper.PayOrderMapper.insert     : ==>  Preparing: INSERT INTO pay_order ( id, biz_order_no, pay_order_no, biz_user_id, pay_channel_code, amount, pay_type, status, pay_over_time ) VALUES ( ?, ?, ?, ?, ?, ?, ?, ?, ? )
+16:44:56:808 DEBUG 41428 --- [http-nio-8085-exec-1] c.h.pay.mapper.PayOrderMapper.insert     : ==> Parameters: 1856256856392040451(Long), 1856256854886248449(Long), 1856256856392040450(Long), 1(Long), balance(String), 88100(Integer), 5(Integer), 1(Integer), 2024-11-12T18:44:56.806136(LocalDateTime)
+16:44:56:815 DEBUG 41428 --- [http-nio-8085-exec-1] c.h.pay.mapper.PayOrderMapper.insert     : <==    Updates: 1
+16:45:06:611 DEBUG 41428 --- [http-nio-8085-exec-2] c.h.pay.mapper.PayOrderMapper.selectOne  : ==>  Preparing: SELECT id,biz_order_no,pay_order_no,biz_user_id,pay_channel_code,amount,pay_type,status,expand_json,result_code,result_msg,pay_success_time,pay_over_time,qr_code_url,create_time,update_time,creater,updater,is_delete FROM pay_order WHERE (biz_order_no = ?)
+16:45:06:612 DEBUG 41428 --- [http-nio-8085-exec-2] c.h.pay.mapper.PayOrderMapper.selectOne  : ==> Parameters: 1856256854886248449(Long)
+16:45:06:615 DEBUG 41428 --- [http-nio-8085-exec-2] c.h.pay.mapper.PayOrderMapper.selectOne  : <==      Total: 1
+16:59:52:077 DEBUG 41428 --- [http-nio-8085-exec-5] c.h.pay.mapper.PayOrderMapper.selectOne  : ==>  Preparing: SELECT id,biz_order_no,pay_order_no,biz_user_id,pay_channel_code,amount,pay_type,status,expand_json,result_code,result_msg,pay_success_time,pay_over_time,qr_code_url,create_time,update_time,creater,updater,is_delete FROM pay_order WHERE (biz_order_no = ?)
+16:59:52:078 DEBUG 41428 --- [http-nio-8085-exec-5] c.h.pay.mapper.PayOrderMapper.selectOne  : ==> Parameters: 1856260609174204417(Long)
+16:59:52:080 DEBUG 41428 --- [http-nio-8085-exec-5] c.h.pay.mapper.PayOrderMapper.selectOne  : <==      Total: 0
+16:59:52:081 DEBUG 41428 --- [http-nio-8085-exec-5] c.h.pay.mapper.PayOrderMapper.insert     : ==>  Preparing: INSERT INTO pay_order ( id, biz_order_no, pay_order_no, biz_user_id, pay_channel_code, amount, pay_type, status, pay_over_time ) VALUES ( ?, ?, ?, ?, ?, ?, ?, ?, ? )
+16:59:52:082 DEBUG 41428 --- [http-nio-8085-exec-5] c.h.pay.mapper.PayOrderMapper.insert     : ==> Parameters: 1856260611401416706(Long), 1856260609174204417(Long), 1856260611401416705(Long), 1(Long), balance(String), 680600(Integer), 5(Integer), 1(Integer), 2024-11-12T18:59:52.081097(LocalDateTime)
+16:59:52:088 DEBUG 41428 --- [http-nio-8085-exec-5] c.h.pay.mapper.PayOrderMapper.insert     : <==    Updates: 1
+17:00:01:780 DEBUG 41428 --- [http-nio-8085-exec-6] c.h.pay.mapper.PayOrderMapper.selectOne  : ==>  Preparing: SELECT id,biz_order_no,pay_order_no,biz_user_id,pay_channel_code,amount,pay_type,status,expand_json,result_code,result_msg,pay_success_time,pay_over_time,qr_code_url,create_time,update_time,creater,updater,is_delete FROM pay_order WHERE (biz_order_no = ?)
+17:00:01:781 DEBUG 41428 --- [http-nio-8085-exec-6] c.h.pay.mapper.PayOrderMapper.selectOne  : ==> Parameters: 1856260609174204417(Long)
+17:00:01:790 DEBUG 41428 --- [http-nio-8085-exec-6] c.h.pay.mapper.PayOrderMapper.selectOne  : <==      Total: 1
+17:05:05:544  WARN 41428 --- [Thread-5] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Start destroying Publisher
+17:05:05:544  WARN 41428 --- [Thread-8] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Start destroying common HttpClient
+17:05:05:545  WARN 41428 --- [Thread-5] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Destruction of the end
+17:05:05:545  WARN 41428 --- [Thread-8] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Destruction of the end
+17:05:05:660  INFO 41428 --- [SpringApplicationShutdownHook] c.a.c.n.registry.NacosServiceRegistry    : De-registering from Nacos Server now...
+17:05:05:665  INFO 41428 --- [SpringApplicationShutdownHook] c.a.c.n.registry.NacosServiceRegistry    : De-registration finished.
+17:05:05:995  INFO 41428 --- [SpringApplicationShutdownHook] com.alibaba.nacos.common.remote.client   : Shutdown rpc client, set status to shutdown
+17:05:05:996  INFO 41428 --- [SpringApplicationShutdownHook] com.alibaba.nacos.common.remote.client   : Shutdown client event executor java.util.concurrent.ScheduledThreadPoolExecutor@5c62318[Running, pool size = 2, active threads = 2, queued tasks = 0, completed tasks = 0]
+17:05:05:997  INFO 41428 --- [SpringApplicationShutdownHook] com.alibaba.nacos.common.remote.client   : Close current connection 1731399686128_192.168.112.1_63259
+17:05:06:001  INFO 41428 --- [nacos-grpc-client-executor-577] c.a.n.c.remote.client.grpc.GrpcClient    : [1731399686128_192.168.112.1_63259]Ignore complete event,isRunning:false,isAbandon=false
+17:05:06:001  INFO 41428 --- [SpringApplicationShutdownHook] c.a.n.c.remote.client.grpc.GrpcClient    : Shutdown grpc executor java.util.concurrent.ThreadPoolExecutor@22149b[Running, pool size = 5, active threads = 1, queued tasks = 0, completed tasks = 577]
+17:05:06:017  INFO 41428 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+17:05:24:974  INFO 41428 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.

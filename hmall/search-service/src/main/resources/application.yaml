@@ -1,0 +1,13 @@
+server:
+  port: 8086
+feign:
+  httpclient:
+    enabled: true
+  sentinel:
+    enabled: true # 开启feign对sentinel的支持
+hm:
+  swagger:
+    title: 搜索服务接口文档
+    package: com.hmall.search.controller
+  db:
+    database: hm-item
