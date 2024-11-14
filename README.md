@@ -17,3 +17,27 @@ hm-nginx - This is the front-end project folder
 
 The project is built with Maven, using JDK version 17, Elasticsearch version 7.1.2, and MySQL version 8 or above.
 
+# structure
+
+## 1. **Project File Structure**
+
+```
+Marketplace-system/
+├── hmall-nginx/             # Frontend folder
+├── hmall/                   # Backend folder
+├── sql/                     # Database folder
+├── picture/                 # Image folder
+├── README.md                # Project documentation
+```
+
+## 2. **Key Directories and Files**
+
+**hmall-nginx/**: Contains frontend code for the user interface of the e-commerce system.
+
+**hmall/**: Contains backend code that handles business logic.
+
+**sql/**: Contains SQL scripts related to database operations.
+
+**picture/**: Stores image resources used in the project.
+
+**README.md**: Documentation file with an overview of the project, setup instructions, and usage.
