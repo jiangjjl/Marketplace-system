@@ -1,6 +1,6 @@
 # Marketplace-system
 
-if you want to chinese-version, please [click here](https://github.com/jiangjjl/Marketplace-system/blob/main/README.md)
+if you want to chinese-version, please [click here](https://github.com/jiangjjl/Marketplace-system/blob/main/README-zh.md)
 
 This is a mall system that adopts the SpringCLoud microservice architecture, which is divided into commodity microservices, shopping cart microservices, user microservices, order microservices, payment microservices, gateway microservices, and query microservices。
 The project uses the database MySQL, and the middleware used includes Nacos, Seata, RabbitMQ, ES, and Kibana
