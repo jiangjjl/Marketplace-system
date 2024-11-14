@@ -2,6 +2,8 @@
 
 这是一个采用SpringCloud微服务架构的商城系统，分为商品微服务、购物车微服务、用户微服务、订单微服务、支付微服务、网关微服务和查询微服务。该项目使用MySQL数据库，使用的中间件包括Nacos、Seata、RabbitMQ、Elasticsearch和Kibana。除了这些微服务外，还有hm-common公共子模块和hm-api开放Feign公共调用模块。
 
+![image1](https://github.com/jiangjjl/Marketplace-system/blob/main/picture/image1.png)
+
 **项目结构**
 
 1. **项目文件结构**
